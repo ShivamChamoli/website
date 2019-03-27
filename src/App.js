@@ -80,7 +80,7 @@ class App extends Component {
           </div>
           <header className="App-header">
             <h2>
-              Woodsorrel, Angel's Meadow
+              Woodsorrel, Angel's Meadow Preschool
             </h2>
           </header>
           <div className="main-content-class">

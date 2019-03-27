@@ -30,7 +30,7 @@ class Content extends React.Component {
         if(this.state.type === "home") {
             return (
                 <div>
-                    <Home />
+                    <WhatsNew />
                 </div>
             );
         }
@@ -86,7 +86,7 @@ class Content extends React.Component {
         else {
             return (
                 <div>
-                    <Home />
+                    <WhatsNew />
                 </div>
             );
         }

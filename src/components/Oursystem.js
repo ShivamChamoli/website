@@ -16,25 +16,24 @@ export default class Oursystem extends React.Component {
 
     render() {
       return (
-        <div>
-            <h3>
-                Our System
-            </h3>
-            <p>
-            <b>Play Group curriculum program: </b> Our Play Group themes are geared towards children 20
-            months to about 2.5 years. Our curriculum is aimed at teaching the toddlers colors, shapes, numbers up
-            to 10, and some of the alphabet. Children will be using glue, paint. Songs/finger rhymes/stories, along
-            with other fun activities are planned for the children to do each day that goes along with that weeks
-            theme.
+        <div style={{background:'#FFE2E2', padding:'3%', marginTop:'3%'}}>
+            <h4>
+                FLEXIBLE CURRICULUM
+            </h4>
+            <p style={{paddingTop:'2%'}}>
+                <b>Play Group curriculum program: </b> Our Play Group themes are geared towards children aged 20
+                months to about 2.5 years. This program is aimed at teaching the toddlers colors, shapes, numbers up
+                to 10, and some of the alphabets. Children will use glue, paints, songs, rhymes/stories along
+                with other fun activities that goes along with that week's theme to stimulate an all around growth.
             </p>
             <p>
-            <b>Preschool curriculum program: </b> Our Preschool curriculum program are geared towards children 2.5 up to 5 years old. Our
-            curriculum includes circle time, art time, learning time and a special activity for five days per
-            week. Our curriculum is aimed at teaching the children their shapes, colors, upper and lower case
-            alphabet and numbers, learning to tell time, learning a few beginning sounds, simple science activities
-            and so much more. Children will be using glue, paint and working on learning how to cut, trace, tell time
-            plus work on pre math, pre reading and science. Some of the simple science projects would be sorting
-            fruits and vegetables, growing plants, and so many other exciting activities!!
+                <b>Preschool curriculum program: </b> Our Preschool curriculum program is geared towards children aged 2.5 years to about 5 years. Our
+                curriculum includes circle time, art time, learning time and a special activity for five days per
+                week. The curriculum is aimed at teaching the children about shapes, colors, upper and lower case
+                alphabets, numbers, learning to tell time, learning a few beginning sounds, simple science activities
+                and so much more. Children will be using glue, paints and working on learning how to cut, trace, tell time
+                plus work on pre math, pre reading and science. An example science project would be sorting
+                fruits and vegetables, growing plants, and many more exciting activities!!
             </p>
         </div>
       );

@@ -2,6 +2,7 @@ import React from 'react';
 import {Carousel} from 'react-bootstrap';
 import AdmissionOpen from '../images/admissionopen.jpeg';
 import BabyShow from '../images/babyshow.jpeg';
+import '../css/Whatsnew.css';
 //import "bootstrap/dist/css/bootstrap.css";
 //import "react-bootstrap-carousel/dist/react-bootstrap-carousel.css";
 
@@ -21,12 +22,7 @@ export default class Whatsnew extends React.Component {
     render() {
       return (
         <div>
-            <div>
-                <h3>
-                    Whats New
-                </h3>
-            </div>
-            <div>
+            <div className="carousel-settings">
                 <Carousel>
                     <Carousel.Item>
                         <img src={AdmissionOpen} className="d-block w-100 img-responsive center-block" alt="First slide" />

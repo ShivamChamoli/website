@@ -1,7 +1,4 @@
 .carousel-settings{
-    max-width: 500px;
-    max-height: 500px;
-    align-content: center;
-    padding-left: 50%;
-    margin-left: 50%;
+    background-color: #FFE2E2;
+    margin-top: 4%;
 }
