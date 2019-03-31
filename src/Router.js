@@ -7,7 +7,7 @@ import createBrowserHistory from 'history/createBrowserHistory';
 export default class CreateRoutes extends React.Component {
   //to protect against any user being able to edit partner details
   URLChange(){ 
-    console.log("hi");
+    //console.log("hi");
   }
   
   render(){

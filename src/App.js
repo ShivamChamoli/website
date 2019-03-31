@@ -8,7 +8,8 @@ class App extends Component {
     super(props);
     this.state = {
       type:"home",
-      heading: "Home"
+      heading: "Home",
+      collapsed: true,
     };
   }
 
@@ -22,7 +23,7 @@ class App extends Component {
   }
 
   redirect(path){
-    console.log(path)
+    //console.log(path)
     this.props.history.push(path);
   }
 
@@ -38,6 +39,13 @@ class App extends Component {
     this.redirect("/home/"+name);
   }
 
+  onSelect(e){
+    //console.log('OnSelect')
+    /*this.setState({
+      collapsed: !this.state.collapsed,
+    });*/
+  }
+
   render() {
     return (
       <div className="container">
@@ -45,14 +53,14 @@ class App extends Component {
           <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossOrigin="anonymous" />
           <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossOrigin="anonymous" />
           <div className="navbar-settings">
-            <Navbar className="navbar-main-class" fixedTop>
+            <Navbar className="navbar-main-class" fixedTop collapseOnSelect>
               <Navbar.Brand>
                 <a href="#home">Woodsorrel</a>
                 {/*<img src={logo} className="App-logo" alt="logo" /> */}
               </Navbar.Brand>
               <Navbar.Toggle aria-controls="responsive-navbar-nav" />
               <Navbar.Collapse id="responsive-navbar-nav">
-                <Nav>
+                <Nav onSelect={this.onSelect}>
                   <NavItem eventKey={1} href="#" onClick= {(e) => this.findPath(e, "home", "Home")}>
                     Home
                   </NavItem>
@@ -80,7 +88,7 @@ class App extends Component {
           </div>
           <header className="App-header">
             <h2>
-              Woodsorrel, Angel's Meadow Preschool
+              Woodsorrel, Angels' Meadow Preschool
             </h2>
           </header>
           <div className="main-content-class">

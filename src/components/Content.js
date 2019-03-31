@@ -1,13 +1,12 @@
 import React from 'react';
 import withRouter from 'react-router-dom/withRouter';
-import Home from './Home.js'
-import Aboutus from './Aboutus.js'
-import Oursystem from './Oursystem.js'
-import Ourfaculty from './Ourfaculty.js'
-import Admissioninformation from './Admissioninformation.js'
-import Documentsrequired from './Documentsrequired.js'
-import Contactus from './Contactus.js'
-import WhatsNew from './Whatsnew.js'
+import Aboutus from './Aboutus.js';
+import Oursystem from './Oursystem.js';
+import Ourfaculty from './Ourfaculty.js';
+import Admissioninformation from './Admissioninformation.js';
+import Documentsrequired from './Documentsrequired.js';
+import Contactus from './Contactus.js';
+import WhatsNew from './Whatsnew.js';
 
 class Content extends React.Component {
     constructor(props) {

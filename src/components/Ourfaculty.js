@@ -16,10 +16,7 @@ export default class Ourfaculty extends React.Component {
 
     render() {
       return (
-        <div>
-            <h3>
-                Our Faculty
-            </h3>
+        <div style={{background:'#FFE2E2', padding:'3%', marginTop:'3%'}}>
             <p>
             Woodsorrel is managed by teams of professional, comprising of people with rich experiences in the field
             of Early Childhood Education. All our staff is chosen for their kind, patient nature. Experienced and

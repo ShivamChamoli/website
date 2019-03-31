@@ -16,7 +16,7 @@ export default class Documentsrequired extends React.Component {
 
     render() {
       return (
-        <div>
+        <div style={{background:'#FFE2E2', padding:'3%', marginTop:'3%'}}>
             <h3>
                 Documents Required
             </h3>
