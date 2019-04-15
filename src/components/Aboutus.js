@@ -2,6 +2,8 @@ import React from 'react';
 import '../css/Aboutus.css';
 import {Row, Col} from 'react-bootstrap';
 import founderDirector from '../images/mom.png';
+import vision from '../images/vision.png';
+import mission from '../images/mission.png';
 //import withRouter from 'react-router-dom/withRouter';
 
 export default class Aboutus extends React.Component {
@@ -46,16 +48,20 @@ export default class Aboutus extends React.Component {
                     as well.</p>
                 </Col>
             </Row>
+            <Row>
+                <Col xs={6} lg={6} md={6}><img style={{background:'lightgrey'}} src={vision} className="img-responsive img-thumbnail" alt="founder director" /></Col>
+                <Col xs={6} lg={6} md={6}><img style={{background:'lightgrey'}} src={mission} className="img-responsive img-thumbnail" alt="founder director" /></Col>
+            </Row>
             <h4 style={{marginTop: '3%'}}>
                 DIRECTOR’S PROFILE 
             </h4>
             <Row>
-            <Col xs={8} lg={8} md={8}>Mrs. Seema Chamoli
-                    the founder director of Woodsorrel, Angels' Meadow, is a <b>reputed educationist and has worked with children her whole career</b> and earned invaluable experience in the teaching and administrative field.
-                    She is <b>thoughtful, compassionate and highly skilled at working with young children</b>. She approaches <b>each child as an individual</b> and learns about where they are <b>emotionally and developmentally</b> so that she can best facilitate their learning. 
-                    The most important areas of her <b>specializations include 'Childhood Education and Nutrition'</b>. Childhood Education emerged as an interest, evolved as a passion and took over all other interests of Mrs. Seema Chamoli.
-                    She has <b>experience in private, public and hi-tech preschool settings</b>. She has worked in various Schools and in the best Pre-schools of India (ranging from ...).  She has also worked as VP educational projects (...).
-                    <b>Realizing the necessity of world class Pre-school in Dehra Dun</b>, she nurtured the <b>concept of Woodsorrel Angels Meadow which is a blend of modernity and traditions</b>. It aims to <b>prepare the children for success in today’s competitive environment and be an excellent global citizen</b>.
+            <Col xs={8} lg={8} md={8}><p>Mrs. Seema Chamoli
+                    the founder director of Woodsorrel, Angels' Meadow, is a <b>reputed educationist and has worked with children her whole career</b> and earned invaluable experience in the teaching and administrative field.</p>
+                    <p>She is <b>thoughtful, compassionate and highly skilled at working with young children</b>. She approaches <b>each child as an individual</b> and learns about where they are <b>emotionally and developmentally</b> so that she can best facilitate their learning. 
+                    The most important areas of her <b>specializations include 'Childhood Education and Nutrition'</b>.</p> <p>Childhood Education emerged as an interest, evolved as a passion and took over all other interests of Mrs. Seema Chamoli.
+                    She has <b>experience in private, public and hi-tech preschool settings</b>. She has worked in various Schools and in the best Pre-schools of India.  She has also worked as the VP of educational projects with Futomic Consultancy.</p>
+                    <p><b>Realizing the necessity of world class Pre-school in Dehra Dun</b>, she nurtured the <b>concept of Woodsorrel Angels Meadow which is a blend of modernity and traditions</b>. It aims to <b>prepare the children for success in today’s competitive environment and be an excellent global citizen</b>.</p>
                 </Col>
                 <Col xs={4} lg={4} md={4}> <img style={{background:'lightgrey'}} src={founderDirector} className="img-responsive img-thumbnail" alt="founder director" /> </Col>
             </Row>

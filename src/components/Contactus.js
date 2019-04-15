@@ -27,7 +27,7 @@ export default class Contactus extends React.Component {
                     <p>seemachamoli22@yahoo.co.in</p>
                     <p>www.woodsorrel.in</p></b>
                 </Col>
-                <Col xs={4} lg={4} md={4}><img src={VisitingCard} className='img-responsive' alt='contact us 1'></img></Col>
+                <Col xs={4} lg={4} md={4}><img style={{background:'lightgrey'}} src={VisitingCard} className='img-responsive img-thumbnail' alt='contact us 1'></img></Col>
             </Row>
         </div>
       );
