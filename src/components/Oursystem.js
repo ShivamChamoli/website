@@ -2,6 +2,7 @@ import React from 'react';
 import {Row, Col} from 'react-bootstrap';
 import physicalskills from '../images/physicalskills.png';
 import creativeskills from '../images/creativeskills.png';
+import funactivity from '../images/funactivity.png';
 //import withRouter from 'react-router-dom/withRouter';
 
 export default class Oursystem extends React.Component {
@@ -57,7 +58,7 @@ export default class Oursystem extends React.Component {
                 Physical Skills
             </h4>
             <Row>
-                <Col xs={6} lg={6} md={6}>
+                <Col xs={8} lg={8} md={8}>
                     <Row>
                         <Col xs={12} lg={12} md={12}>A wide range of free play and structured play has been carefully planned to develop the child's gross and fine motor skills in their indoor and outdoor physical environment. Following indoor and outdoor activities are planned:</Col>
                     </Row>
@@ -75,7 +76,7 @@ export default class Oursystem extends React.Component {
                         <Col xs={4} lg={4} md={4}><ul><li><b>Physical exercise</b></li></ul></Col>
                     </Row>
                 </Col>
-                <Col xs={6} lg={6} md={6}><img style={{background:'lightgrey', maxHeight:'200px', marginLeft:'5%'}} src={physicalskills} className="img-responsive img-thumbnail" alt="physical skills" /></Col>
+                <Col xs={3} lg={3} md={3}><img style={{background:'lightgrey', maxHeight:'200px', marginLeft:'5%'}} src={physicalskills} className="img-responsive img-thumbnail" alt="physical skills" /></Col>
             </Row>
             <h4>
                 Language Skills
@@ -86,21 +87,23 @@ export default class Oursystem extends React.Component {
                         <Col xs={12} lg={12} md={12}>Development of Listening, Speaking, Reading and Writing skills using the following activities:</Col>
                     </Row>
                     <Row>
-                        <Col xs={3} lg={3} md={3}><ul><li><b>Story telling</b></li></ul></Col>
-                        <Col xs={3} lg={3} md={3}><ul><li><b>Music and dance</b></li></ul></Col>
-                        <Col xs={3} lg={3} md={3}><ul><li><b>Singing</b></li></ul></Col>
-                        <Col xs={3} lg={3} md={3}><ul><li><b>Rhymes</b></li></ul></Col>
+                        <Col xs={4} lg={4} md={4}><ul><li><b>Story telling</b></li></ul></Col>
+                        <Col xs={4} lg={4} md={4}><ul><li><b>Music and dance</b></li></ul></Col>
+                        <Col xs={4} lg={4} md={4}><ul><li><b>Singing</b></li></ul></Col>
                     </Row>
                     <Row>
-                        <Col xs={3} lg={3} md={3}><ul><li><b>Dramatization</b></li></ul></Col>
-                        <Col xs={3} lg={3} md={3}><ul><li><b>Puppet show</b></li></ul></Col>
-                        <Col xs={3} lg={3} md={3}><ul><li><b>Magic show</b></li></ul></Col>
-                        <Col xs={3} lg={3} md={3}><ul><li><b>English conversation</b></li></ul></Col>
+                        <Col xs={4} lg={4} md={4}><ul><li><b>Rhymes</b></li></ul></Col>
+                        <Col xs={4} lg={4} md={4}><ul><li><b>Dramatization</b></li></ul></Col>
+                        <Col xs={4} lg={4} md={4}><ul><li><b>Puppet show</b></li></ul></Col>
                     </Row>
                     <Row>
-                        <Col xs={3} lg={3} md={3}><ul><li><b>Stage exposure</b></li></ul></Col>
-                        <Col xs={3} lg={3} md={3}><ul><li><b>Library (Reading skills)</b></li></ul></Col>
-                        <Col xs={3} lg={3} md={3}><ul><li><b>Personality development</b></li></ul></Col>
+                        <Col xs={4} lg={4} md={4}><ul><li><b>Magic show</b></li></ul></Col>
+                        <Col xs={4} lg={4} md={4}><ul><li><b>English conversation</b></li></ul></Col>
+                        <Col xs={4} lg={4} md={4}><ul><li><b>Stage exposure</b></li></ul></Col>
+                    </Row>
+                    <Row>
+                        <Col xs={4} lg={4} md={4}><ul><li><b>Library (Reading skills)</b></li></ul></Col>
+                        <Col xs={4} lg={4} md={4}><ul><li><b>Personality development</b></li></ul></Col>
                     </Row>
                 </Col>
             </Row>
@@ -113,22 +116,24 @@ export default class Oursystem extends React.Component {
                         <Col xs={12} lg={12} md={12}>Focuses on the child's skill of memory and observation, problem solving, logical thinking, developing a scientific attitude and a sense of curiosity. It helps in developing the basic Intelligence of the child with the help of <b>Montessori Equipments</b> and also focuses on the child's five senses (Sight, Hearing, Touch, Smell & Taste) using the following activities:</Col>
                     </Row>
                     <Row>
-                        <Col xs={3} lg={3} md={3}><ul><li><b>Experiment</b></li></ul></Col>
-                        <Col xs={3} lg={3} md={3}><ul><li><b>Learning by doing</b></li></ul></Col>
-                        <Col xs={3} lg={3} md={3}><ul><li><b>Puzzles</b></li></ul></Col>
-                        <Col xs={3} lg={3} md={3}><ul><li><b>Block building</b></li></ul></Col>
+                        <Col xs={4} lg={4} md={4}><ul><li><b>Experiment</b></li></ul></Col>
+                        <Col xs={4} lg={4} md={4}><ul><li><b>Learn by doing</b></li></ul></Col>
+                        <Col xs={4} lg={4} md={4}><ul><li><b>Puzzles</b></li></ul></Col>
                     </Row>
                     <Row>
-                        <Col xs={3} lg={3} md={3}><ul><li><b>Beads</b></li></ul></Col>
-                        <Col xs={3} lg={3} md={3}><ul><li><b>Flash cards</b></li></ul></Col>
-                        <Col xs={3} lg={3} md={3}><ul><li><b>Pink tower</b></li></ul></Col>
-                        <Col xs={3} lg={3} md={3}><ul><li><b>Spindles</b></li></ul></Col>
+                        <Col xs={4} lg={4} md={4}><ul><li><b>Block building</b></li></ul></Col>
+                        <Col xs={4} lg={4} md={4}><ul><li><b>Beads</b></li></ul></Col>
+                        <Col xs={4} lg={4} md={4}><ul><li><b>Flash cards</b></li></ul></Col>
                     </Row>
                     <Row>
-                        <Col xs={3} lg={3} md={3}><ul><li><b>Brown stairs</b></li></ul></Col>
-                        <Col xs={3} lg={3} md={3}><ul><li><b>Red rod</b></li></ul></Col>
-                        <Col xs={3} lg={3} md={3}><ul><li><b>Number rod</b></li></ul></Col>
-                        <Col xs={3} lg={3} md={3}><ul><li><b>Balancing beam</b></li></ul></Col>
+                        <Col xs={4} lg={4} md={4}><ul><li><b>Pink tower</b></li></ul></Col>
+                        <Col xs={4} lg={4} md={4}><ul><li><b>Spindles</b></li></ul></Col>
+                        <Col xs={4} lg={4} md={4}><ul><li><b>Brown stairs</b></li></ul></Col>
+                    </Row>
+                    <Row>
+                        <Col xs={4} lg={4} md={4}><ul><li><b>Red rod</b></li></ul></Col>
+                        <Col xs={4} lg={4} md={4}><ul><li><b>Number rod</b></li></ul></Col>
+                        <Col xs={4} lg={4} md={4}><ul><li><b>Balancing beam</b></li></ul></Col>
                     </Row>
                 </Col>
             </Row>
@@ -136,7 +141,7 @@ export default class Oursystem extends React.Component {
                 Creative Skills
             </h4>
             <Row>
-                <Col xs={6} lg={6} md={6}>
+                <Col xs={8} lg={8} md={8}>
                     <Row>
                         <Col xs={12} lg={12} md={12}>Development of creative skills using the following activities:</Col>
                     </Row>
@@ -146,20 +151,22 @@ export default class Oursystem extends React.Component {
                         <Col xs={4} lg={4} md={4}><ul><li><b>Painting</b></li></ul></Col>
                     </Row>
                     <Row>
-                        <Col xs={4} lg={4} md={4}><ul><li><b>Cut/Paste</b></li></ul></Col>
-                        <Col xs={4} lg={4} md={4}><ul><li><b>Scribbling</b></li></ul></Col>
+                        <Col xs={4} lg={4} md={4}><ul><li><b>Cutting</b></li></ul></Col>
+                        <Col xs={4} lg={4} md={4}><ul><li><b>Pasting</b></li></ul></Col>
+                        <Col xs={4} lg={4} md={4}><ul><li><b>Using crayons</b></li></ul></Col>
+                    </Row>
+                    <Row>
+                        <Col xs={4} lg={4} md={4}><ul><li><b>Music</b></li></ul></Col>
+                        <Col xs={4} lg={4} md={4}><ul><li><b>Dance</b></li></ul></Col>
                         <Col xs={4} lg={4} md={4}><ul><li><b>Dramatization</b></li></ul></Col>
                     </Row>
                     <Row>
-                        <Col xs={4} lg={4} md={4}><ul><li><b>Music/Dance</b></li></ul></Col>
-                        <Col xs={4} lg={4} md={4}><ul><li><b>Rhymes</b></li></ul></Col>
                         <Col xs={4} lg={4} md={4}><ul><li><b>Story telling</b></li></ul></Col>
-                    </Row>
-                    <Row>
-                        <Col xs={4} lg={4} md={4}><ul><li><b>Using crayons</b></li></ul></Col>
+                        <Col xs={4} lg={4} md={4}><ul><li><b>Rhymes</b></li></ul></Col>
+                        <Col xs={4} lg={4} md={4}><ul><li><b>Scribbling</b></li></ul></Col>
                     </Row>
                 </Col>
-                <Col xs={6} lg={6} md={6}><img style={{background:'lightgrey', maxHeight:'200px', marginLeft:'20%'}} src={creativeskills} className="img-responsive img-thumbnail" alt="creative skills" /></Col>
+                <Col xs={2} lg={2} md={2}><img style={{background:'lightgrey', maxHeight:'200px', marginLeft:'20%'}} src={creativeskills} className="img-responsive img-thumbnail" alt="creative skills" /></Col>
             </Row>
             <h4>
                 Socio-emotional Skills
@@ -170,15 +177,52 @@ export default class Oursystem extends React.Component {
                         <Col xs={12} lg={12} md={12}>Apart from inculcating good behaviour and manners we also help to develop various traits in the child. The curriculum imparts to the child qualities like <b>Sharing and caring</b>, <b>Independence</b>, <b>Leadership</b>, <b>Responsibility</b> and <b>Confidence</b> using activities:</Col>
                     </Row>
                     <Row>
-                        <Col xs={3} lg={3} md={3}><ul><li><b>Celebrations & Festivals</b></li></ul></Col>
-                        <Col xs={3} lg={3} md={3}><ul><li><b>Greetings</b></li></ul></Col>
-                        <Col xs={3} lg={3} md={3}><ul><li><b>Prayers</b></li></ul></Col>
-                        <Col xs={3} lg={3} md={3}><ul><li><b>Magic words</b></li></ul></Col>
+                        <Col xs={4} lg={4} md={4}><ul><li><b>Celebrations & Festivals</b></li></ul></Col>
+                        <Col xs={4} lg={4} md={4}><ul><li><b>Greetings</b></li></ul></Col>
+                        <Col xs={4} lg={4} md={4}><ul><li><b>Prayers</b></li></ul></Col>
                     </Row>
                     <Row>
-                        <Col xs={3} lg={3} md={3}><ul><li><b>Good manners</b></li></ul></Col>
+                        <Col xs={4} lg={4} md={4}><ul><li><b>Magic words</b></li></ul></Col>
+                        <Col xs={4} lg={4} md={4}><ul><li><b>Good manners</b></li></ul></Col>
                     </Row>
                 </Col>
+            </Row>
+            <h4>
+                Fun Activities
+            </h4>
+            <Row>
+                <Col xs={8} lg={8} md={8}>
+                    <Row>
+                        <Col xs={4} lg={4} md={4}><ul><li><b>Drawing</b></li></ul></Col>
+                        <Col xs={4} lg={4} md={4}><ul><li><b>Fancy Dress</b></li></ul></Col>
+                        <Col xs={4} lg={4} md={4}><ul><li><b>Singing</b></li></ul></Col>
+                    </Row>
+                    <Row>
+                        <Col xs={4} lg={4} md={4}><ul><li><b>Dancing</b></li></ul></Col>
+                        <Col xs={4} lg={4} md={4}><ul><li><b>Birthday Celebrations</b></li></ul></Col>
+                        <Col xs={4} lg={4} md={4}><ul><li><b>All Festivals</b></li></ul></Col>
+                    </Row>
+                    <Row>
+                        <Col xs={4} lg={4} md={4}><ul><li><b>Grand Parent's Day</b></li></ul></Col>
+                        <Col xs={4} lg={4} md={4}><ul><li><b>Mother's Day</b></li></ul></Col>
+                        <Col xs={4} lg={4} md={4}><ul><li><b>Baby Show</b></li></ul></Col>
+                    </Row>
+                    <Row>
+                        <Col xs={4} lg={4} md={4}><ul><li><b>Mega/Mini Show</b></li></ul></Col>
+                        <Col xs={4} lg={4} md={4}><ul><li><b>Summer Camp</b></li></ul></Col>
+                        <Col xs={4} lg={4} md={4}><ul><li><b>Sports Day</b></li></ul></Col>
+                    </Row>
+                    <Row>
+                        <Col xs={4} lg={4} md={4}><ul><li><b>Annual Day</b></li></ul></Col>
+                        <Col xs={4} lg={4} md={4}><ul><li><b>Picnic</b></li></ul></Col>
+                        <Col xs={4} lg={4} md={4}><ul><li><b>Visit places</b></li></ul></Col>
+                    </Row>
+                    <Row>
+                        <Col xs={4} lg={4} md={4}><ul><li><b>Regular P.T.Ms</b></li></ul></Col>
+                        <Col xs={4} lg={4} md={4}><ul><li><b>Health checkups</b></li></ul></Col>
+                    </Row>
+                </Col>
+                <Col xs={3} lg={3} md={3}><img style={{background:'lightgrey', maxHeight:'200px', marginLeft:'20%'}} src={funactivity} className="img-responsive img-thumbnail" alt="creative skills" /></Col>
             </Row>
             <h4>
                 Etiquette
@@ -201,7 +245,7 @@ export default class Oursystem extends React.Component {
             </h4>
             <Row>
                 <Col xs={6} lg={6} md={6}><b>Class</b></Col>
-                <Col xs={6} lg={6} md={6}><b>Age</b></Col>
+                <Col xs={6} lg={6} md={6}><b>Age</b> (years)</Col>
             </Row>
             <Row>
                 <Col xs={6} lg={6} md={6}>Playgroup</Col>
