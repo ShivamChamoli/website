@@ -15,7 +15,7 @@ import bs11 from '../images/bs11.JPG';
 import bs12 from '../images/bs12.JPG';
 import bs13 from '../images/bs13.jpg';
 import bs14 from '../images/bs14.JPG';
-import creativeskills from '../images/creativeskills.png';
+import summercamp from '../images/summercamp.JPG';
 import '../css/Whatsnew.css';
 //import "bootstrap/dist/css/bootstrap.css";
 //import "react-bootstrap-carousel/dist/react-bootstrap-carousel.css";
@@ -46,11 +46,11 @@ export default class Whatsnew extends React.Component {
                         </Carousel.Caption>*/}
                     </Carousel.Item>
                     <Carousel.Item>
-                        <img src={creativeskills} className="d-block w-100 img-responsive center-block" alt="Second slide" />
-                        <Carousel.Caption>
+                        <img src={summercamp} className="d-block w-100 img-responsive center-block" alt="Second slide" />
+                        {/*<Carousel.Caption>
                         <h3>Details for the Summer Camp coming soon!</h3>
                         <p>Take home the Early bird and the Army discount while it lasts!</p>
-                        </Carousel.Caption>
+                    </Carousel.Caption>*/}
                     </Carousel.Item>
                     <Carousel.Item>
                         <Carousel.Caption>
