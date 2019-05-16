@@ -16,6 +16,7 @@ import bs12 from '../images/bs12.JPG';
 import bs13 from '../images/bs13.jpg';
 import bs14 from '../images/bs14.JPG';
 import summercamp from '../images/summercamp.JPG';
+import summercampboard from '../images/summercampboard.jpeg';
 import '../css/Whatsnew.css';
 //import "bootstrap/dist/css/bootstrap.css";
 //import "react-bootstrap-carousel/dist/react-bootstrap-carousel.css";
@@ -53,38 +54,42 @@ export default class Whatsnew extends React.Component {
                     </Carousel.Caption>*/}
                     </Carousel.Item>
                     <Carousel.Item>
+                        <p className="carousel-text">The long awaited rejuvenating summer has come. Summer means having ice cream 🍦, red juicy watermelon 🍉 and lots of fun activities. We at Woodsorrel Angels’ Meadow experience great joy in organising Summer Camp for kids  from 20th May to 7th June. So enroll now and learn dance from Saurabh Sir of famous V boys dance institute, guitar and singing from Pankaj Kumar Bachhwan Sir, Vedic Maths from Vishal Bharti Sir and many more fun activities which will not only increase your child's intellect but also his enthusiasm.</p>
+                        <img src={summercampboard} className="d-block w-100 img-responsive center-block" alt="Third slide" />
+                    </Carousel.Item>
+                    <Carousel.Item>
                         <Carousel.Caption>
-                        <h3>Baby Ivan in the ball pool</h3>
+                        <h3 className="carousel-text">Baby Ivan in the ball pool</h3>
                         </Carousel.Caption>
                         <img src={bs1} className="d-block w-100 img-responsive center-block" alt="Second slide" />
                     </Carousel.Item>
                     <Carousel.Item>
                         <Carousel.Caption>
-                        <h3>Don't worry, he figured it out later!</h3>
+                        <h3 className="carousel-text">Don't worry, he figured it out later!</h3>
                         </Carousel.Caption>
                         <img src={bs2} className="d-block w-100 img-responsive center-block" alt="Second slide" />
                     </Carousel.Item>
                     <Carousel.Item>
                         <Carousel.Caption>
-                        <h3>Baby Yashwardhan in the ball pool</h3>
+                        <h3 className="carousel-text">Baby Yashwardhan in the ball pool</h3>
                         </Carousel.Caption>
                         <img src={bs3} className="d-block w-100 img-responsive center-block" alt="Second slide" />
                     </Carousel.Item>
                     <Carousel.Item>
                         <Carousel.Caption>
-                        <h3>Trust us, that teddy is friendly!</h3>
+                        <h3 className="carousel-text">Trust us, that teddy is friendly!</h3>
                         </Carousel.Caption>
                         <img src={bs4} className="d-block w-100 img-responsive center-block" alt="Second slide" />
                     </Carousel.Item>
                     <Carousel.Item>
                         <Carousel.Caption>
-                        <h3>Baby Ivan in the zone for some creativity</h3>
+                        <h3 className="carousel-text">Baby Ivan in the zone for some creativity</h3>
                         </Carousel.Caption>
                         <img src={bs5} className="d-block w-100 img-responsive center-block" alt="Second slide" />
                     </Carousel.Item>
                     <Carousel.Item>
                         <Carousel.Caption>
-                        <h3>The adults to their usual, business!</h3>
+                        <h3 className="carousel-text">The adults to their usual, business!</h3>
                         </Carousel.Caption>
                         <img src={bs6} className="d-block w-100 img-responsive center-block" alt="Second slide" />
                     </Carousel.Item>
@@ -96,43 +101,43 @@ export default class Whatsnew extends React.Component {
                     </Carousel.Item>
                     <Carousel.Item>
                         <Carousel.Caption>
-                        <h3>Where did that water go?</h3>
+                        <h3 className="carousel-text">Where did that water go?</h3>
                         </Carousel.Caption>
                         <img src={bs8} className="d-block w-100 img-responsive center-block" alt="Second slide" />
                     </Carousel.Item>
                     <Carousel.Item>
                         <Carousel.Caption>
-                        <h3>We will name it Woodsorrel!!</h3>
+                        <h3 className="carousel-text">We will name it Woodsorrel!!</h3>
                         </Carousel.Caption>
                         <img src={bs9} className="d-block w-100 img-responsive center-block" alt="Second slide" />
                     </Carousel.Item>
                     <Carousel.Item>
                         <Carousel.Caption>
-                        <h3>1st Birthday</h3>
+                        <h3 className="carousel-text">1st Birthday</h3>
                         </Carousel.Caption>
                         <img src={bs10} className="d-block w-100 img-responsive center-block" alt="Second slide" />
                     </Carousel.Item>
                     <Carousel.Item>
                         <Carousel.Caption>
-                        <h3>Our toys do seem to bring out the best in them</h3>
+                        <h3 className="carousel-text">Our toys do seem to bring out the best in them</h3>
                         </Carousel.Caption>
                         <img src={bs11} className="d-block w-100 img-responsive center-block" alt="Second slide" />
                     </Carousel.Item>
                     <Carousel.Item>
                         <Carousel.Caption>
-                        <h3>Slide away, my boy!</h3>
+                        <h3 className="carousel-text">Slide away, my boy!</h3>
                         </Carousel.Caption>
                         <img src={bs12} className="d-block w-100 img-responsive center-block" alt="Second slide" />
                     </Carousel.Item>
                     <Carousel.Item>
                         <Carousel.Caption>
-                        <h3>Oops, thats not chocolate!</h3>
+                        <h3 className="carousel-text">Oops, thats not chocolate!</h3>
                         </Carousel.Caption>
                         <img src={bs13} className="d-block w-100 img-responsive center-block" alt="Second slide" />
                     </Carousel.Item>
                     <Carousel.Item>
                         <Carousel.Caption>
-                        <h3>Mr Chubby Cheeks goes to Baby Ivan!</h3>
+                        <h3 className="carousel-text">Mr Chubby Cheeks goes to Baby Ivan!</h3>
                         </Carousel.Caption>
                         <img src={bs14} className="d-block w-100 img-responsive center-block" alt="Second slide" />
                     </Carousel.Item>
