@@ -18,6 +18,14 @@ import bs14 from '../images/bs14.JPG';
 import summercamp from '../images/summercamp.JPG';
 import summercampboard from '../images/summercampboard.jpeg';
 import '../css/Whatsnew.css';
+import summercampdance from '../images/summercampdance.jpeg';
+import summercampsing from '../images/summercampsing.jpeg';
+import summercampdirector from '../images/summercampdirector.jpeg';
+import summercampbrownie from '../images/summercampbrownie.jpeg';
+import summercampstickfigures from '../images/summercampstickfigures.jpeg';
+import summercampresult from '../images/summercampresult.jpeg';
+import summercampstickpuppets from '../images/summercampstickpuppets.jpeg';
+import summercampteacher from '../images/summercampteacher.jpeg';
 //import "bootstrap/dist/css/bootstrap.css";
 //import "react-bootstrap-carousel/dist/react-bootstrap-carousel.css";
 
@@ -54,8 +62,56 @@ export default class Whatsnew extends React.Component {
                     </Carousel.Caption>*/}
                     </Carousel.Item>
                     <Carousel.Item>
-                        <p className="carousel-text">The long awaited rejuvenating summer has come. Summer means having ice cream 🍦, red juicy watermelon 🍉 and lots of fun activities. We at Woodsorrel Angels’ Meadow experience great joy in organising Summer Camp for kids  from 20th May to 7th June. So enroll now and learn dance from Saurabh Sir of famous V boys dance institute, guitar and singing from Pankaj Kumar Bachhwan Sir, Vedic Maths from Vishal Bharti Sir and many more fun activities which will not only increase your child's intellect but also his enthusiasm.</p>
+                        <p className="carousel-text">The long awaited rejuvenating summer has come. Summer means having ice cream 🍦, red juicy watermelon 🍉 and lots of fun activities. We at Woodsorrel Angels’ Meadow experience great joy in organising Summer Camp for kids from 20th May to 7th June. So enroll now and learn dance from Saurabh Sir of famous V.Boyzzz dance center, guitar and singing from Pankaj Kumar Bachhwan Sir, Vedic Maths from Vishal Bharti Sir and many more fun activities which will not only increase your child's intellect but also his enthusiasm.</p>
                         <img src={summercampboard} className="d-block w-100 img-responsive center-block" alt="Third slide" />
+                    </Carousel.Item>
+                    <Carousel.Item>
+                        <Carousel.Caption>
+                        <h3 className="carousel-text">Summer Camp Class of 2019, Dance Class!!</h3>
+                        </Carousel.Caption>
+                        <img src={summercampdance} className="d-block w-100 img-responsive center-block" alt="Second slide" />
+                    </Carousel.Item>
+                    <Carousel.Item>
+                        <Carousel.Caption>
+                        <h3 className="carousel-text">Summer Camp Class of 2019, Music Class!!</h3>
+                        </Carousel.Caption>
+                        <img src={summercampsing} className="d-block w-100 img-responsive center-block" alt="Second slide" />
+                    </Carousel.Item>
+                    <Carousel.Item>
+                        <Carousel.Caption>
+                        <h3 className="carousel-text">Our very own Founder Director leading the way in the non fire cooking class!</h3>
+                        </Carousel.Caption>
+                        <img src={summercampdirector} className="d-block w-100 img-responsive center-block" alt="Second slide" />
+                    </Carousel.Item>
+                    <Carousel.Item>
+                        <Carousel.Caption>
+                        <h3 className="carousel-text">The fruits of the toil</h3>
+                        </Carousel.Caption>
+                        <img src={summercampbrownie} className="d-block w-100 img-responsive center-block" alt="Second slide" />
+                    </Carousel.Item>
+                    <Carousel.Item>
+                        <Carousel.Caption>
+                        <h3 className="carousel-text">Our kids with the results of the painting class</h3>
+                        </Carousel.Caption>
+                        <img src={summercampresult} className="d-block w-100 img-responsive center-block" alt="Second slide" />
+                    </Carousel.Item>
+                    <Carousel.Item>
+                        <Carousel.Caption>
+                        <h3 className="carousel-text">Stick Figures Class lead by our brilliant teacher!</h3>
+                        </Carousel.Caption>
+                        <img src={summercampteacher} className="d-block w-100 img-responsive center-block" alt="Second slide" />
+                    </Carousel.Item>
+                    <Carousel.Item>
+                        <Carousel.Caption>
+                        <h3 className="carousel-text">Stick Figures Class of 2019!</h3>
+                        </Carousel.Caption>
+                        <img src={summercampstickfigures} className="d-block w-100 img-responsive center-block" alt="Second slide" />
+                    </Carousel.Item>
+                    <Carousel.Item>
+                        <Carousel.Caption>
+                        <h3 className="carousel-text">The final results of the stick figure class</h3>
+                        </Carousel.Caption>
+                        <img src={summercampstickpuppets} className="d-block w-100 img-responsive center-block" alt="Second slide" />
                     </Carousel.Item>
                     <Carousel.Item>
                         <Carousel.Caption>
