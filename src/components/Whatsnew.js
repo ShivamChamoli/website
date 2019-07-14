@@ -15,8 +15,6 @@ import bs11 from '../images/bs11.JPG';
 import bs12 from '../images/bs12.JPG';
 import bs13 from '../images/bs13.jpg';
 import bs14 from '../images/bs14.JPG';
-import summercamp from '../images/summercamp.JPG';
-import summercampboard from '../images/summercampboard.jpeg';
 import '../css/Whatsnew.css';
 import summercampdance from '../images/summercampdance.jpeg';
 import summercampsing from '../images/summercampsing.jpeg';
@@ -26,6 +24,15 @@ import summercampstickfigures from '../images/summercampstickfigures.jpeg';
 import summercampresult from '../images/summercampresult.jpeg';
 import summercampstickpuppets from '../images/summercampstickpuppets.jpeg';
 import summercampteacher from '../images/summercampteacher.jpeg';
+import hischalfirstday from '../images/hischal-first-day.jpeg';
+import stackingrings from '../images/stacking-rings.jpeg';
+import pickanddrop from '../images/pick-and-drop.jpeg';
+import smallbigcircle from '../images/small-big-circle.jpeg';
+import fruitpuzzle from '../images/fruit-puzzle.jpeg';
+import fungame from '../images/fun-game.jpeg';
+import colortablets from '../images/color-tablets.jpeg';
+import foodhabits from '../images/food-habits.jpeg';
+import balancingballgame from '../images/balancing-ball-game.jpeg';
 //import "bootstrap/dist/css/bootstrap.css";
 //import "react-bootstrap-carousel/dist/react-bootstrap-carousel.css";
 
@@ -55,15 +62,10 @@ export default class Whatsnew extends React.Component {
                         </Carousel.Caption>*/}
                     </Carousel.Item>
                     <Carousel.Item>
-                        <img src={summercamp} className="d-block w-100 img-responsive center-block" alt="Second slide" />
-                        {/*<Carousel.Caption>
-                        <h3>Details for the Summer Camp coming soon!</h3>
-                        <p>Take home the Early bird and the Army discount while it lasts!</p>
-                    </Carousel.Caption>*/}
-                    </Carousel.Item>
-                    <Carousel.Item>
-                        <p className="carousel-text">The long awaited rejuvenating summer has come. Summer means having ice cream 🍦, red juicy watermelon 🍉 and lots of fun activities. We at Woodsorrel Angels’ Meadow experience great joy in organising Summer Camp for kids from 20th May to 7th June. So enroll now and learn dance from Saurabh Sir of famous V.Boyzzz dance center, guitar and singing from Pankaj Kumar Bachhwan Sir, Vedic Maths from Vishal Bharti Sir and many more fun activities which will not only increase your child's intellect but also his enthusiasm.</p>
-                        <img src={summercampboard} className="d-block w-100 img-responsive center-block" alt="Third slide" />
+                        <Carousel.Caption>
+                        <h3 className="carousel-text">Just a normal day at Woodsorrel</h3>
+                        </Carousel.Caption>
+                        <img src={hischalfirstday} className="d-block w-100 img-responsive center-block" alt="Second slide" />
                     </Carousel.Item>
                     <Carousel.Item>
                         <Carousel.Caption>
@@ -73,9 +75,21 @@ export default class Whatsnew extends React.Component {
                     </Carousel.Item>
                     <Carousel.Item>
                         <Carousel.Caption>
+                        <h3 className="carousel-text">Stacking rings game</h3>
+                        </Carousel.Caption>
+                        <img src={stackingrings} className="d-block w-100 img-responsive center-block" alt="Second slide" />
+                    </Carousel.Item>
+                    <Carousel.Item>
+                        <Carousel.Caption>
                         <h3 className="carousel-text">Summer Camp Class of 2019, Music Class!!</h3>
                         </Carousel.Caption>
                         <img src={summercampsing} className="d-block w-100 img-responsive center-block" alt="Second slide" />
+                    </Carousel.Item>
+                    <Carousel.Item>
+                        <Carousel.Caption>
+                        <h3 className="carousel-text">Pick and drop game</h3>
+                        </Carousel.Caption>
+                        <img src={pickanddrop} className="d-block w-100 img-responsive center-block" alt="Second slide" />
                     </Carousel.Item>
                     <Carousel.Item>
                         <Carousel.Caption>
@@ -91,9 +105,9 @@ export default class Whatsnew extends React.Component {
                     </Carousel.Item>
                     <Carousel.Item>
                         <Carousel.Caption>
-                        <h3 className="carousel-text">Our kids with the results of the painting class</h3>
+                        <h3 className="carousel-text">Lets meet the boss of stacking circles!</h3>
                         </Carousel.Caption>
-                        <img src={summercampresult} className="d-block w-100 img-responsive center-block" alt="Second slide" />
+                        <img src={smallbigcircle} className="d-block w-100 img-responsive center-block" alt="Second slide" />
                     </Carousel.Item>
                     <Carousel.Item>
                         <Carousel.Caption>
@@ -106,6 +120,59 @@ export default class Whatsnew extends React.Component {
                         <h3 className="carousel-text">Stick Figures Class of 2019!</h3>
                         </Carousel.Caption>
                         <img src={summercampstickfigures} className="d-block w-100 img-responsive center-block" alt="Second slide" />
+                    </Carousel.Item>
+                    <Carousel.Item>
+                        <Carousel.Caption>
+                        <h3 className="carousel-text">The mysterious fruit game</h3>
+                        </Carousel.Caption>
+                        <img src={fruitpuzzle} className="d-block w-100 img-responsive center-block" alt="Second slide" />
+                    </Carousel.Item>
+                    <Carousel.Item>
+                        <Carousel.Caption>
+                        <h3 className="carousel-text">Another fun game!</h3>
+                        </Carousel.Caption>
+                        <img src={fungame} className="d-block w-100 img-responsive center-block" alt="Second slide" />
+                    </Carousel.Item>
+                    <Carousel.Item>
+                        <Carousel.Caption>
+                        <h3 className="carousel-text">Colour Tablets-Primary Colours-A child gets the chance to match two tablets of same colour to each other building their Visual Discrimination skills</h3>
+                        </Carousel.Caption>
+                        <img src={colortablets} className="d-block w-100 img-responsive center-block" alt="Second slide" />
+                    </Carousel.Item>
+                    <Carousel.Item>
+                        <Carousel.Caption>
+                        <h3 className="carousel-text">Habits are best made when you are young,
+                        whether you’re eating at home or dining out, good table manners is an important part of every meal.
+                        Washing hands before and after meal should become a second nature.It is an important healthy 
+                        hygiene habit.</h3>
+                        </Carousel.Caption>
+                        <img src={foodhabits} className="d-block w-100 img-responsive center-block" alt="Second slide" />
+                    </Carousel.Item>
+                    <Carousel.Item>
+                    <Carousel.Caption>
+                        <h3 className="carousel-text">Good balancing skills increase children’s confidence in Gross Motor Activities. Hishal performed an amazing balancing act.</h3>
+                        </Carousel.Caption>
+                        <img src={balancingballgame} className="d-block w-100 img-responsive center-block" alt="Second slide" />
+                    </Carousel.Item>
+                    {/* <Carousel.Item>
+                        <div style={divStyle}>
+                            <Carousel.Caption>
+                            <h3 className="carousel-text">Fun and Food Village.</h3>
+                            </Carousel.Caption>
+                            <video controls>
+                                <source src={hischalvideo} type="video/mp4"></source>
+                            </video>
+                        </div>
+                    </Carousel.Item> */}
+                    {/* <Carousel.Item>
+                        <p className="carousel-text">The long awaited rejuvenating summer has come. Summer means having ice cream 🍦, red juicy watermelon 🍉 and lots of fun activities. We at Woodsorrel Angels’ Meadow experience great joy in organising Summer Camp for kids from 20th May to 7th June. So enroll now and learn dance from Saurabh Sir of famous V.Boyzzz dance center, guitar and singing from Pankaj Kumar Bachhwan Sir, Vedic Maths from Vishal Bharti Sir and many more fun activities which will not only increase your child's intellect but also his enthusiasm.</p>
+                        <img src={summercampboard} className="d-block w-100 img-responsive center-block" alt="Third slide" />
+                    </Carousel.Item> */}
+                    <Carousel.Item>
+                        <Carousel.Caption>
+                        <h3 className="carousel-text">Our kids with the results of the painting class</h3>
+                        </Carousel.Caption>
+                        <img src={summercampresult} className="d-block w-100 img-responsive center-block" alt="Second slide" />
                     </Carousel.Item>
                     <Carousel.Item>
                         <Carousel.Caption>
