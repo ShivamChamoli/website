@@ -1,6 +1,5 @@
 import React from 'react';
 import {Carousel} from 'react-bootstrap';
-import AdmissionOpen from '../images/admissionopen.jpeg';
 import bs1 from '../images/bs1.JPG';
 import bs2 from '../images/bs2.JPG';
 import bs3 from '../images/bs3.JPG';
@@ -47,6 +46,8 @@ import karate from '../images/karate.jpeg';
 import nationalSymbols from '../images/nationalSymbols.jpeg';
 import alphabetPicture from '../images/alphabetPicture.jpeg';
 import redSensory from '../images/redSensory.jpeg';
+import Flex from '../images/Flex.jpg';
+import $ from 'jquery'; 
 //import "bootstrap/dist/css/bootstrap.css";
 //import "react-bootstrap-carousel/dist/react-bootstrap-carousel.css";
 
@@ -63,13 +64,21 @@ export default class Whatsnew extends React.Component {
         this.setState(nextProps);
     }
 
+    componentDidMount() {
+        $(".carousel-indicators").css("display","none");
+    }
+
+    componentDidUpdate() {
+        $(".carousel-indicators").css("display","none");
+    }
+
     render() {
       return (
         <div>
             <div className="carousel-settings">
                 <Carousel>
                     <Carousel.Item>
-                        <img src={AdmissionOpen} className="d-block w-100 img-responsive center-block" alt="First slide" />
+                        <img src={Flex} className="d-block w-100 img-responsive center-block" alt="First slide" />
                         {/*<Carousel.Caption>
                         <h3>First slide label</h3>
                         <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
