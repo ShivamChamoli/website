@@ -5,12 +5,8 @@ import bs2 from '../images/bs2.JPG';
 import bs3 from '../images/bs3.JPG';
 import bs4 from '../images/bs4.JPG';
 import bs5 from '../images/bs5.JPG';
-import bs6 from '../images/bs6.JPG';
 import bs7 from '../images/bs7.JPG';
-import bs8 from '../images/bs8.JPG';
 import bs9 from '../images/bs9.JPG';
-import bs10 from '../images/bs10.JPG';
-import bs11 from '../images/bs11.JPG';
 import bs12 from '../images/bs12.JPG';
 import bs13 from '../images/bs13.jpg';
 import bs14 from '../images/bs14.JPG';
@@ -47,6 +43,10 @@ import nationalSymbols from '../images/nationalSymbols.jpeg';
 import alphabetPicture from '../images/alphabetPicture.jpeg';
 import redSensory from '../images/redSensory.jpeg';
 import Flex from '../images/Flex.jpg';
+import independenceDay from '../images/independenceDay.jpeg';
+import rockingChairs from '../images/rockingChairs.jpeg';
+import selfFeeding from '../images/selfFeeding.jpeg';
+import prayers from '../images/prayers.jpeg';
 import $ from 'jquery'; 
 //import "bootstrap/dist/css/bootstrap.css";
 //import "react-bootstrap-carousel/dist/react-bootstrap-carousel.css";
@@ -86,6 +86,12 @@ export default class Whatsnew extends React.Component {
                     </Carousel.Item>
                     <Carousel.Item>
                         <Carousel.Caption>
+                        <h3 className="carousel-text padding">Celebrated Independence Day and Raksha Bandhan in the school.</h3>
+                        </Carousel.Caption>
+                        <img src={independenceDay} className="d-block w-100 img-responsive center-block" alt="Second slide" />
+                    </Carousel.Item>
+                    <Carousel.Item>
+                        <Carousel.Caption>
                         <h3 className="carousel-text padding">Just a normal day at Woodsorrel</h3>
                         </Carousel.Caption>
                         <img src={hischalfirstday} className="d-block w-100 img-responsive center-block" alt="Second slide" />
@@ -98,7 +104,7 @@ export default class Whatsnew extends React.Component {
                     </Carousel.Item>
                     <Carousel.Item>
                         <Carousel.Caption>
-                        <h3 className="carousel-text padding">Playing with balls improves kids motor skills,hand-eye-coordination and timing,which are important parts of developmental progression</h3>
+                        <h3 className="carousel-text padding">Playing with balls improves the kid's motor skills,hand-eye-coordination and timing,which are important parts for developmental progression</h3>
                         </Carousel.Caption>
                         <img src={playingBall} className="d-block w-100 img-responsive center-block" alt="Second slide" />
                     </Carousel.Item>
@@ -113,13 +119,25 @@ export default class Whatsnew extends React.Component {
                     </Carousel.Item>
                     <Carousel.Item>
                         <Carousel.Caption>
+                        <h3 className="carousel-text padding">By self feeding ,children develop the self help skill to take care of themselves.They are also working on fine motor skills and hand-eye coordination as they eat.</h3>
+                        </Carousel.Caption>
+                        <img src={selfFeeding} className="d-block w-100 img-responsive center-block" alt="Second slide" />
+                    </Carousel.Item>
+                    <Carousel.Item>
+                        <Carousel.Caption>
+                        <h3 className="carousel-text padding">Prayers before meals is a good habit to teach the children</h3>
+                        </Carousel.Caption>
+                        <img src={prayers} className="d-block w-100 img-responsive center-block" alt="Second slide" />
+                    </Carousel.Item>
+                    <Carousel.Item>
+                        <Carousel.Caption>
                         <h3 className="carousel-text padding">Good for hand-eye-coordination and fine motor skills due to precise nature of matching each piece exactly, it also develops physical,cognitive and emotional skills</h3>
                         </Carousel.Caption>
                         <img src={doctor} className="d-block w-100 img-responsive center-block" alt="Second slide" />
                     </Carousel.Item>
                     <Carousel.Item>
                         <Carousel.Caption>
-                        <h3 className="carousel-text padding">Sparks child’s imagination, stimulate curiosity and helps in developing brain,social and communication skills</h3>
+                        <h3 className="carousel-text padding">Sparks child’s imagination, stimulates curiosity and helps in developing brain,social and communication skills</h3>
                         </Carousel.Caption>
                         <img src={sounds} className="d-block w-100 img-responsive center-block" alt="Second slide" />
                     </Carousel.Item>
@@ -212,6 +230,12 @@ Most importantly it is fun 😁</h3>
                         <h3 className="carousel-text padding">Lets meet the boss of stacking circles!</h3>
                         </Carousel.Caption>
                         <img src={smallbigcircle} className="d-block w-100 img-responsive center-block" alt="Second slide" />
+                    </Carousel.Item>
+                    <Carousel.Item>
+                        <Carousel.Caption>
+                        <h3 className="carousel-text padding">Rocking chairs, making kids happy since their creation!</h3>
+                        </Carousel.Caption>
+                        <img src={rockingChairs} className="d-block w-100 img-responsive center-block" alt="Second slide" />
                     </Carousel.Item>
                     <Carousel.Item>
                         <Carousel.Caption>
@@ -315,12 +339,6 @@ Most importantly it is fun 😁</h3>
                         <img src={bs5} className="d-block w-100 img-responsive center-block" alt="Second slide" />
                     </Carousel.Item>
                     <Carousel.Item>
-                        <Carousel.Caption>
-                        <h3 className="carousel-text padding">The adults to their usual, business!</h3>
-                        </Carousel.Caption>
-                        <img src={bs6} className="d-block w-100 img-responsive center-block" alt="Second slide" />
-                    </Carousel.Item>
-                    <Carousel.Item>
                         {/*<Carousel.Caption>
                         <h3>Baby Ivan in the ball pool</h3>
                         </Carousel.Caption>*/}
@@ -328,27 +346,9 @@ Most importantly it is fun 😁</h3>
                     </Carousel.Item>
                     <Carousel.Item>
                         <Carousel.Caption>
-                        <h3 className="carousel-text padding">Where did that water go?</h3>
-                        </Carousel.Caption>
-                        <img src={bs8} className="d-block w-100 img-responsive center-block" alt="Second slide" />
-                    </Carousel.Item>
-                    <Carousel.Item>
-                        <Carousel.Caption>
                         <h3 className="carousel-text padding">We will name it Woodsorrel!!</h3>
                         </Carousel.Caption>
                         <img src={bs9} className="d-block w-100 img-responsive center-block" alt="Second slide" />
-                    </Carousel.Item>
-                    <Carousel.Item>
-                        <Carousel.Caption>
-                        <h3 className="carousel-text padding">1st Birthday</h3>
-                        </Carousel.Caption>
-                        <img src={bs10} className="d-block w-100 img-responsive center-block" alt="Second slide" />
-                    </Carousel.Item>
-                    <Carousel.Item>
-                        <Carousel.Caption>
-                        <h3 className="carousel-text padding">Our toys do seem to bring out the best in them</h3>
-                        </Carousel.Caption>
-                        <img src={bs11} className="d-block w-100 img-responsive center-block" alt="Second slide" />
                     </Carousel.Item>
                     <Carousel.Item>
                         <Carousel.Caption>
