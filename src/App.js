@@ -76,6 +76,9 @@ class App extends Component {
                   <NavItem eventKey={5} href="#" onClick= {(e) => this.findPath(e, "whatsnew", "Whats new")}>
                     Whats new
                   </NavItem>
+                  <NavItem eventKey={6} href="#" onClick={(e) => this.findPath(e, "albums", "Albums")}>
+                      Albums
+                  </NavItem>
                   <NavDropdown eventKey={3} title="Admission Information" id="basic-nav-dropdown">
                     <MenuItem eventKey={3.1} onClick= {(e) => this.findPath(e, "admissioninformation", "Admission Information")}>Admission Information</MenuItem>
                     <MenuItem eventKey={3.2} onClick= {(e) => this.findPath(e, "documentsrequired", "Documents Required")}>Documents Required</MenuItem>

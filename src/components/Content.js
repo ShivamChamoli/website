@@ -7,6 +7,7 @@ import Admissioninformation from './Admissioninformation.js';
 import Documentsrequired from './Documentsrequired.js';
 import Contactus from './Contactus.js';
 import WhatsNew from './Whatsnew.js';
+import Albums from './Albums.js';
 
 class Content extends React.Component {
     constructor(props) {
@@ -58,6 +59,13 @@ class Content extends React.Component {
             return (
                 <div>
                     <WhatsNew />
+                </div>
+            );
+        }
+        else if (this.state.type === "albums") {
+            return (
+                <div>
+                    <Albums />
                 </div>
             );
         }
