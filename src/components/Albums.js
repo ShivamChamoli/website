@@ -21,7 +21,7 @@ export default class Albums extends React.Component {
             height: "400px",
             width: "60%",
             //boxShadow: "10px 10px 5px grey",
-            border: "1px solid grey",
+            //border: "1px solid grey",
             marginLeft: "1%",
             marginBottom: "2%",
             display: "inline-block"
