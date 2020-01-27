@@ -47,6 +47,7 @@ import independenceDay from '../images/independenceDay.jpeg';
 import rockingChairs from '../images/rockingChairs.jpeg';
 import selfFeeding from '../images/selfFeeding.jpeg';
 import prayers from '../images/prayers.jpeg';
+import vidyarambham from '../images/vidyarambham.jpg';
 import $ from 'jquery'; 
 //import "bootstrap/dist/css/bootstrap.css";
 //import "react-bootstrap-carousel/dist/react-bootstrap-carousel.css";
@@ -103,32 +104,35 @@ export default class Whatsnew extends React.Component {
                         <img src={summercampdance} className="d-block w-100 img-responsive center-block" alt="Second slide" />
                     </Carousel.Item>
                     <Carousel.Item>
+                        <img src={vidyarambham} className="d-block w-100 img-responsive center-block" alt="Second slide" />
+                    </Carousel.Item>
+                    <Carousel.Item>
                         <Carousel.Caption>
                         <h3 className="carousel-text padding">Playing with balls improves the kid's motor skills,hand-eye-coordination and timing,which are important parts for developmental progression</h3>
                         </Carousel.Caption>
                         <img src={playingBall} className="d-block w-100 img-responsive center-block" alt="Second slide" />
                     </Carousel.Item>
-                    <Carousel.Item>
+                    {/*<Carousel.Item>
                         <img src={math} className="d-block w-100 img-responsive center-block" alt="Second slide" />
-                    </Carousel.Item>
-                    <Carousel.Item>
+                    </Carousel.Item>*/}
+                    {/*<Carousel.Item>
                         <Carousel.Caption>
                         <h3 className="carousel-text padding">The physical exertion is a plus-helps in releasing child’s seemingly boundless energy</h3>
                         </Carousel.Caption>
                         <img src={playing} className="d-block w-100 img-responsive center-block" alt="Second slide" />
-                    </Carousel.Item>
+                    </Carousel.Item>*/}
                     <Carousel.Item>
                         <Carousel.Caption>
                         <h3 className="carousel-text padding">By self feeding ,children develop the self help skill to take care of themselves.They are also working on fine motor skills and hand-eye coordination as they eat.</h3>
                         </Carousel.Caption>
                         <img src={selfFeeding} className="d-block w-100 img-responsive center-block" alt="Second slide" />
                     </Carousel.Item>
-                    <Carousel.Item>
+                    {/*<Carousel.Item>
                         <Carousel.Caption>
                         <h3 className="carousel-text padding">Prayers before meals is a good habit to teach the children</h3>
                         </Carousel.Caption>
                         <img src={prayers} className="d-block w-100 img-responsive center-block" alt="Second slide" />
-                    </Carousel.Item>
+                    </Carousel.Item>*/}
                     <Carousel.Item>
                         <Carousel.Caption>
                         <h3 className="carousel-text padding">Good for hand-eye-coordination and fine motor skills due to precise nature of matching each piece exactly, it also develops physical,cognitive and emotional skills</h3>
@@ -168,9 +172,9 @@ Most importantly it is fun 😁</h3>
                         </Carousel.Caption>
                         <img src={painting} className="d-block w-100 img-responsive center-block" alt="Second slide" />
                     </Carousel.Item>
-                    <Carousel.Item>
+                    {/*<Carousel.Item>
                         <img src={ladder} className="d-block w-100 img-responsive center-block" alt="Second slide" />
-                    </Carousel.Item>
+                    </Carousel.Item>*/}
                     <Carousel.Item>
                         <Carousel.Caption>
                         <h3 className="carousel-text padding">Through this activity the Montessori student not only develops motor control,but practices listening skills,balance, concentration,coordination,body awareness and sense of inner discipline.The student will also work on the visual skills of left to right</h3>
@@ -195,12 +199,12 @@ Most importantly it is fun 😁</h3>
                         </Carousel.Caption>
                         <img src={redSensory} className="d-block w-100 img-responsive center-block" alt="Second slide" />
                     </Carousel.Item>
-                    <Carousel.Item>
+                    {/*<Carousel.Item>
                         <Carousel.Caption>
                         <h3 className="carousel-text padding">Stacking rings game</h3>
                         </Carousel.Caption>
                         <img src={stackingrings} className="d-block w-100 img-responsive center-block" alt="Second slide" />
-                    </Carousel.Item>
+                    </Carousel.Item>*/}
                     <Carousel.Item>
                         <Carousel.Caption>
                         <h3 className="carousel-text padding">Summer Camp Class of 2019, Music Class!!</h3>

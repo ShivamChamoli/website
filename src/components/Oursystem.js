@@ -248,20 +248,16 @@ export default class Oursystem extends React.Component {
                 <Col xs={6} lg={6} md={6}><b>Age</b> (years)</Col>
             </Row>
             <Row>
-                <Col xs={6} lg={6} md={6}>Playgroup</Col>
+                <Col xs={6} lg={6} md={6}>Montessori 1</Col>
                 <Col xs={6} lg={6} md={6}>2+</Col>
             </Row>
             <Row>
-                <Col xs={6} lg={6} md={6}>Nursery</Col>
-                <Col xs={6} lg={6} md={6}>2.5+</Col>
+                <Col xs={6} lg={6} md={6}>Montessori 2</Col>
+                <Col xs={6} lg={6} md={6}>3+</Col>
             </Row>
             <Row>
-                <Col xs={6} lg={6} md={6}>Mont1</Col>
-                <Col xs={6} lg={6} md={6}>3.5+</Col>
-            </Row>
-            <Row>
-                <Col xs={6} lg={6} md={6}>Mont2</Col>
-                <Col xs={6} lg={6} md={6}>4.5+</Col>
+                <Col xs={6} lg={6} md={6}>Montessori 3</Col>
+                <Col xs={6} lg={6} md={6}>4+</Col>
             </Row>
         </div>
       );
