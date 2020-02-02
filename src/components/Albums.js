@@ -40,7 +40,7 @@ export default class Albums extends React.Component {
                 </Row>
                 <Row>
                     <div style={boxShadowStyle}><CarouselDefault albumName='diwali' /></div>
-                    <div style={inlineDiv}>Its Diwali time, the festival of lights....celebrations have begun in Woodsorrel Angels’Meadow...children were involved in some beautiful Diwali crafts, covered the art table made Diwali lanterns, Rangoli Diya and did Diya hanging. Moreover, there was singing and dancing.....little lamps are burning bright, burning bright, burning bright, its Diwali.</div>
+                    <div style={inlineDiv}>Its Diwali time, the festival of lights....celebrations have begun in Woodsorrel Angels’Meadow...children were involved in some beautiful Diwali crafts like covering the art table, making Diwali lanterns, Rangoli Diyas and Diya hanging. Moreover, there was singing and dancing.....little lamps are burning bright, burning bright, burning bright, its Diwali!!</div>
                 </Row>
                 <Row>
                     <div style={boxShadowStyle}><CarouselDefault albumName='assessment' /></div>

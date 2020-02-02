@@ -53,10 +53,10 @@ export default class CarouselDefault extends React.Component {
     render() {
         var album = [];
         if (this.props.albumName === 'christmas') {
-            album = ['IMG_0919.jpg', 'IMG_0257.JPG', 'IMG_0272.JPG', 'IMG_9974.JPG', 'IMG_9786.jpg', 'IMG_0898.jpg', 'IMG_0586.JPG', 'IMG_0598.JPG', 'IMG_0307.JPG'];
+            album = ['IMG_0919.jpg', 'IMG_0682.jpg', 'IMG_0257.JPG', 'IMG_0272.JPG', 'IMG_0804.jpg', 'IMG_9974.JPG', 'IMG_0838.jpg', 'IMG_9786.jpg', 'IMG_0898.jpg', 'IMG_0586.JPG', 'IMG_0953.jpg', 'IMG_0598.JPG', 'IMG_0307.JPG', 'IMG_0684.jpg'];
         }
         else if (this.props.albumName === 'diwali') {
-            album = ['IMG_1.jpg', 'IMG_2.jpg', 'IMG_3.jpg', 'IMG_4.jpg', 'IMG_5.jpg'];
+            album = ['IMG_1.jpg', 'IMG_2.jpg', 'IMG_9.jpg', 'IMG_3.jpg', 'IMG_4.jpg', 'IMG_5.jpg', 'IMG_6.jpg', 'IMG_7.jpg', 'IMG_8.jpg', 'IMG_10.jpg', 'IMG_11.jpg', 'IMG_12.jpg', 'IMG_13.JPG', 'IMG_14.JPG', 'IMG_15.jpg', 'IMG_16.jpg'];
         }
         else if (this.props.albumName === 'assessment') {
             album = ['IMG_0496.JPG', 'IMG_0500.JPG', 'IMG_0507.JPG'];

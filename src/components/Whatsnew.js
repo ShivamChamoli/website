@@ -48,6 +48,7 @@ import rockingChairs from '../images/rockingChairs.jpeg';
 import selfFeeding from '../images/selfFeeding.jpeg';
 import prayers from '../images/prayers.jpeg';
 import vidyarambham from '../images/vidyarambham.jpg';
+import dsc_5566 from '../images/DSC_5566.jpg';
 import $ from 'jquery'; 
 //import "bootstrap/dist/css/bootstrap.css";
 //import "react-bootstrap-carousel/dist/react-bootstrap-carousel.css";
@@ -84,6 +85,9 @@ export default class Whatsnew extends React.Component {
                         <h3>First slide label</h3>
                         <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
                         </Carousel.Caption>*/}
+                    </Carousel.Item>
+                    <Carousel.Item>
+                        <img src={dsc_5566} className="d-block w-100 img-responsive center-block" alt="Second slide" />
                     </Carousel.Item>
                     <Carousel.Item>
                         <Carousel.Caption>
