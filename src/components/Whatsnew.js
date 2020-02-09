@@ -11,14 +11,8 @@ import bs12 from '../images/bs12.JPG';
 import bs13 from '../images/bs13.jpg';
 import bs14 from '../images/bs14.JPG';
 import '../css/Whatsnew.css';
-import summercampdance from '../images/summercampdance.jpeg';
-import summercampsing from '../images/summercampsing.jpeg';
-import summercampdirector from '../images/summercampdirector.jpeg';
-import summercampbrownie from '../images/summercampbrownie.jpeg';
-import summercampstickfigures from '../images/summercampstickfigures.jpeg';
 import summercampresult from '../images/summercampresult.jpeg';
 import summercampstickpuppets from '../images/summercampstickpuppets.jpeg';
-import summercampteacher from '../images/summercampteacher.jpeg';
 import hischalfirstday from '../images/hischal-first-day.jpeg';
 import stackingrings from '../images/stacking-rings.jpeg';
 import pickanddrop from '../images/pick-and-drop.jpeg';
@@ -49,6 +43,7 @@ import selfFeeding from '../images/selfFeeding.jpeg';
 import prayers from '../images/prayers.jpeg';
 import vidyarambham from '../images/vidyarambham.jpg';
 import dsc_5566 from '../images/DSC_5566.jpg';
+import specialevent from '../images/specialevent.jpeg';
 import $ from 'jquery'; 
 //import "bootstrap/dist/css/bootstrap.css";
 //import "react-bootstrap-carousel/dist/react-bootstrap-carousel.css";
@@ -87,6 +82,9 @@ export default class Whatsnew extends React.Component {
                         </Carousel.Caption>*/}
                     </Carousel.Item>
                     <Carousel.Item>
+                          <img src={specialevent} className="d-block w-100 img-responsive center-block" alt="Second slide" />
+                    </Carousel.Item>
+                    <Carousel.Item>
                         <img src={dsc_5566} className="d-block w-100 img-responsive center-block" alt="Second slide" />
                     </Carousel.Item>
                     <Carousel.Item>
@@ -100,12 +98,6 @@ export default class Whatsnew extends React.Component {
                         <h3 className="carousel-text padding">Just a normal day at Woodsorrel</h3>
                         </Carousel.Caption>
                         <img src={hischalfirstday} className="d-block w-100 img-responsive center-block" alt="Second slide" />
-                    </Carousel.Item>
-                    <Carousel.Item>
-                        <Carousel.Caption>
-                        <h3 className="carousel-text padding">Summer Camp Class of 2019, Dance Class!!</h3>
-                        </Carousel.Caption>
-                        <img src={summercampdance} className="d-block w-100 img-responsive center-block" alt="Second slide" />
                     </Carousel.Item>
                     <Carousel.Item>
                         <img src={vidyarambham} className="d-block w-100 img-responsive center-block" alt="Second slide" />
@@ -211,27 +203,9 @@ Most importantly it is fun 😁</h3>
                     </Carousel.Item>*/}
                     <Carousel.Item>
                         <Carousel.Caption>
-                        <h3 className="carousel-text padding">Summer Camp Class of 2019, Music Class!!</h3>
-                        </Carousel.Caption>
-                        <img src={summercampsing} className="d-block w-100 img-responsive center-block" alt="Second slide" />
-                    </Carousel.Item>
-                    <Carousel.Item>
-                        <Carousel.Caption>
                         <h3 className="carousel-text padding">Pick and drop game</h3>
                         </Carousel.Caption>
                         <img src={pickanddrop} className="d-block w-100 img-responsive center-block" alt="Second slide" />
-                    </Carousel.Item>
-                    <Carousel.Item>
-                        <Carousel.Caption>
-                        <h3 className="carousel-text padding">Our very own Founder Director leading the way in the non fire cooking class!</h3>
-                        </Carousel.Caption>
-                        <img src={summercampdirector} className="d-block w-100 img-responsive center-block" alt="Second slide" />
-                    </Carousel.Item>
-                    <Carousel.Item>
-                        <Carousel.Caption>
-                        <h3 className="carousel-text padding">The fruits of the toil</h3>
-                        </Carousel.Caption>
-                        <img src={summercampbrownie} className="d-block w-100 img-responsive center-block" alt="Second slide" />
                     </Carousel.Item>
                     <Carousel.Item>
                         <Carousel.Caption>
@@ -244,18 +218,6 @@ Most importantly it is fun 😁</h3>
                         <h3 className="carousel-text padding">Rocking chairs, making kids happy since their creation!</h3>
                         </Carousel.Caption>
                         <img src={rockingChairs} className="d-block w-100 img-responsive center-block" alt="Second slide" />
-                    </Carousel.Item>
-                    <Carousel.Item>
-                        <Carousel.Caption>
-                        <h3 className="carousel-text padding">Stick Figures Class lead by our brilliant teacher!</h3>
-                        </Carousel.Caption>
-                        <img src={summercampteacher} className="d-block w-100 img-responsive center-block" alt="Second slide" />
-                    </Carousel.Item>
-                    <Carousel.Item>
-                        <Carousel.Caption>
-                        <h3 className="carousel-text padding">Stick Figures Class of 2019!</h3>
-                        </Carousel.Caption>
-                        <img src={summercampstickfigures} className="d-block w-100 img-responsive center-block" alt="Second slide" />
                     </Carousel.Item>
                     <Carousel.Item>
                         <Carousel.Caption>

@@ -64,6 +64,9 @@ export default class CarouselDefault extends React.Component {
         else if (this.props.albumName === 'vidyarambham') {
             album = ['IMG_1.jpg', 'IMG_2.jpg', 'IMG_3.jpg'];
         }
+        else if (this.props.albumName === 'republicday') {
+            album = ['IMG_1911.jpg', 'IMG_1947.jpg', 'IMG_1996.jpg', 'IMG_2021.JPG', 'IMG_2026.JPG', 'IMG_2062.JPG', 'IMG_2103.jpg', 'IMG_2114.jpg', 'IMG_2137.JPG', 'IMG_2175.jpg'];
+        }
         return (
             <div>
                 <Carousel>

@@ -50,6 +50,10 @@ export default class Albums extends React.Component {
                     <div style={boxShadowStyle}><CarouselDefault albumName='vidyarambham' /></div>
                     <div style={inlineDiv}>Woodsorrel Angels’ Meadow hosted a special Vidyarambham-Initiation of writing where kids between two and three years are formally initiated into learning. The child is made to write on the barley spread in a plate. It is believed that the child gets the learning initiative blessed by Goddess Saraswati on this auspicious day of Navratri.</div>
                 </Row>
+                <Row>
+                    <div style={boxShadowStyle}><CarouselDefault albumName='republicday' /></div>
+                    <div style={inlineDiv}>Woodsorrel Angels’ Meadow hosted a special Republic Day with fun, frolic and lots of learning about our great nation.</div>
+                </Row>
             </div>
             //<div style={boxShadowStyle}></div>
         );
