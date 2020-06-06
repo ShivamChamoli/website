@@ -3,9 +3,13 @@
     margin-top: 4%;
 }
 .carousel-text {
-    font-family: 'Lobster', cursive;
+    font-family: 'Lobster';
     font-weight: bold;
 }
 .padding {
     padding-bottom: 10px;
+}
+.bigger-text {
+    font-size: 30px;
+    font-weight: bold;
 }

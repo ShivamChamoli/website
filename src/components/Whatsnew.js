@@ -44,7 +44,9 @@ import prayers from '../images/prayers.jpeg';
 import vidyarambham from '../images/vidyarambham.jpg';
 import dsc_5566 from '../images/DSC_5566.jpg';
 import specialevent from '../images/specialevent.jpeg';
-import $ from 'jquery'; 
+import classifieldAd from '../images/classifiedAd.JPG';
+import $ from 'jquery';
+import { Link } from 'react-router-dom';
 //import "bootstrap/dist/css/bootstrap.css";
 //import "react-bootstrap-carousel/dist/react-bootstrap-carousel.css";
 
@@ -82,7 +84,8 @@ export default class Whatsnew extends React.Component {
                         </Carousel.Caption>*/}
                     </Carousel.Item>
                     <Carousel.Item>
-                          <img src={specialevent} className="d-block w-100 img-responsive center-block" alt="Second slide" />
+                          <Link className="bigger-text" to="https://tinyurl.com/ydy99uu4" target="_blank" onClick={(event) => { event.preventDefault(); window.open("https://tinyurl.com/ydy99uu4"); }}>Admissions Open!! Click here for an online admission form!!</Link>
+                          <img src={classifieldAd} className="d-block w-100 img-responsive center-block" alt="Second slide" />
                     </Carousel.Item>
                     <Carousel.Item>
                         <img src={dsc_5566} className="d-block w-100 img-responsive center-block" alt="Second slide" />

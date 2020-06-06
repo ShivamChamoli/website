@@ -70,12 +70,15 @@ class App extends Component {
                   <NavItem eventKey={3} href="#" onClick= {(e) => this.findPath(e, "oursystem", "Our System")}>
                     Our System
                   </NavItem>
+                  {/*<NavItem eventKey={3} href="#" onClick={(e) => this.findPath(e, "locations", "Our Locations")}>
+                      Our Locations
+                  </NavItem>*/}
                   <NavItem eventKey={4} href="#" onClick= {(e) => this.findPath(e, "ourfaculty", "Our Faculty")}>
                     Our Faculty
                   </NavItem>
-                  <NavItem eventKey={5} href="#" onClick= {(e) => this.findPath(e, "whatsnew", "Whats new")}>
+                  {/*<NavItem eventKey={5} href="#" onClick= {(e) => this.findPath(e, "whatsnew", "Whats new")}>
                     Whats new
-                  </NavItem>
+                  </NavItem>*/}
                   <NavItem eventKey={6} href="#" onClick={(e) => this.findPath(e, "albums", "Albums")}>
                       Albums
                   </NavItem>

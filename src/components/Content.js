@@ -8,6 +8,7 @@ import Documentsrequired from './Documentsrequired.js';
 import Contactus from './Contactus.js';
 import WhatsNew from './Whatsnew.js';
 import Albums from './Albums.js';
+import Locations from './Locations.js';
 
 class Content extends React.Component {
     constructor(props) {
@@ -87,6 +88,13 @@ class Content extends React.Component {
             return (
                 <div>
                     <Contactus />
+                </div>
+            );
+        }
+        else if (this.state.type === "locations") {
+            return (
+                <div>
+                    <Locations />
                 </div>
             );
         }
