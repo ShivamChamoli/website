@@ -9,6 +9,7 @@ import Contactus from './Contactus.js';
 import WhatsNew from './Whatsnew.js';
 import Albums from './Albums.js';
 import Locations from './Locations.js';
+import AdmissionForm from './AdmissionForm.js';
 
 class Content extends React.Component {
     constructor(props) {
@@ -70,6 +71,13 @@ class Content extends React.Component {
                 </div>
             );
         }
+        else if (this.state.type === "admissionForm") {
+            return (
+                <div>
+                    <AdmissionForm />
+                </div>
+            );
+        }    
         else if(this.state.type === "admissioninformation") {
             return (
                 <div>
